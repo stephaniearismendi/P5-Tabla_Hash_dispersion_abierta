@@ -8,11 +8,12 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef FUNCION_H
-#define FUNCION_H
 
 #include "funcion_dispersion.hpp"
 #include <stdlib.h>
+
+#ifndef FUNCION_H
+#define FUNCION_H
 
 template <class Clave>
 class fdModulo : public FuncionDispersion<Clave>
