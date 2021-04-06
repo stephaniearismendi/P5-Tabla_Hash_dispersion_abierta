@@ -13,8 +13,10 @@ template <class Clave>
 class Lista
 {
 private:
+    vector<Clave> vDatos_;
 public:
-    Lista();
+    Lista(){};
+    ~Lista(){};
     bool Buscar(Clave &X) const;
     bool Insertar(const Clave &X);
 };

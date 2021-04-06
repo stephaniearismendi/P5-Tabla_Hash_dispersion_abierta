@@ -2,7 +2,7 @@
 #define TABLAHASH_H
 
 #include "lista.hpp"
-#include "funcion_dispersion.hpp"
+#include "funciones.hpp"
 
 template <class Clave>
 class TablaHash
