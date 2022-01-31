@@ -1,4 +1,4 @@
-# P5-Tabla_Hash_dispersion_abierta
+# Tabla Hash Dispersión Abierta.
 
 Se pide desarrollar un tipo de dato genérico TablaHash<class Clave> para almacenar valores de tipo Clave utilizando la técnica de búsqueda por dispersión abierta.
 
