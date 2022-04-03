@@ -1,3 +1,15 @@
+/**
+ * @file hashTable.hpp
+ * @author stephanie arismendi (alu0101351728@ull.edu.es)
+ * @brief Clase HashTable, que implementa una tabla Hash con los métodos de búsqueda e insersión según la función
+ * de dispersión escogida.
+ * @version 0.1
+ * @date 2022-04-03
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef HASHTABLE_H
 #define HASHTABLE_H
 

@@ -1,3 +1,14 @@
+/**
+ * @file block.hpp
+ * @author stephanie arismendi (alu0101351728@ull.edu.es)
+ * @brief Clase Block que controlará la dispersión cerrada
+ * @version 0.1
+ * @date 2022-04-03
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef BLOCK_H
 #define BLOCK_H
 

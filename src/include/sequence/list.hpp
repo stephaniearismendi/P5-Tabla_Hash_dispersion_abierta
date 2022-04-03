@@ -1,3 +1,14 @@
+/**
+ * @file list.hpp
+ * @author stephanie arismendi (alu0101351728@ull.edu.es)
+ * @brief clase list que controlará la dispersión abierta
+ * @version 0.1
+ * @date 2022-04-03
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef LIST_H
 #define LIST_H
 
