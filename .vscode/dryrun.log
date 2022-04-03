@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/usuario/aeda/TablaHash'
+ 
+src/main.cpp:14:10: fatal error: include/hashTable/hashTable.hpp: No such file or directory
+   14 | #include "include/hashTable/hashTable.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+
+g++ -std=c++11 -Wall -g -o obj/main.o -c src/main.cpp
+g++ -std=c++11 -Wall -g -o main obj/main.o 
+make: Leaving directory '/home/usuario/aeda/TablaHash'
+ 

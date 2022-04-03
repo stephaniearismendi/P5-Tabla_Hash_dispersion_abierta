@@ -1,11 +1,11 @@
 #ifndef DISPERSION_H
 #define DISPERSION_H
 
-template <class Clave>
+template <class Key>
 class FuncionDispersion
 {
 public:
-    virtual unsigned operator()(const Clave &k) const = 0;
+    virtual unsigned operator()(const Key &k) const = 0;
 };
 
 #endif
