@@ -4,9 +4,9 @@
  * @brief Función de exploración de doble dispersión
  * @version 0.1
  * @date 2022-04-03
- * 
+ *
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 
 #ifndef DOBLEDISPERSION_H
@@ -23,10 +23,7 @@ public:
     {
         fd_ = fd;
     }
-    unsigned operator()(const Key &k, unsigned i) const
-    {
-        return (fd_->operator()(k) + i);
-    }
+    unsigned operator()(const Key &k, unsigned i) const { return i * fd_(k); }
 
 private:
     FuncionDispersion<Key> *fd_;
